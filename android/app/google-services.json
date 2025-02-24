@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "69529283541",
+    "project_id": "emoti-fb-app",
+    "storage_bucket": "emoti-fb-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69529283541:android:fc5384ba91d658d2856b5c",
+        "android_client_info": {
+          "package_name": "com.example.emoti_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANH35wuuikscMQLvkzDokfQdHLqP4tlrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

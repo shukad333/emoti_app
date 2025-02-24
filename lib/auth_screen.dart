@@ -1,3 +1,4 @@
+import 'package:emoti_app/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -32,7 +33,11 @@ class AuthPage extends StatelessWidget {
 }
 
 Future<UserCredential> signInWithGoogle() async {
-  final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+  GoogleSignIn _googleSignIn = GoogleSignIn(
+    clientId: "69529283541-ulcv0tfvt534ma5lbp5d0j4m6hj584cm.apps.googleusercontent.com", // Add this line
+    scopes: ['email'],
+  );
+  final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
   final GoogleSignInAuthentication? googleAuth = await googleUser?.authentication;
   final credential = GoogleAuthProvider.credential(
     accessToken: googleAuth?.accessToken,
