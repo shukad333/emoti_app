@@ -34,7 +34,7 @@ class AuthPage extends StatelessWidget {
 
 Future<UserCredential> signInWithGoogle() async {
   GoogleSignIn _googleSignIn = GoogleSignIn(
-    clientId: "69529283541-ulcv0tfvt534ma5lbp5d0j4m6hj584cm.apps.googleusercontent.com", // Add this line
+    clientId: "<client-id>.apps.googleusercontent.com", // Add this line
     scopes: ['email'],
   );
   final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();

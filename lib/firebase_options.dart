@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDC_KvoX8HqLpMusSoPE9yufQRUiKzoa3c',
+    apiKey: '',
     appId: '1:69529283541:web:57a1f9cfb741362f856b5c',
     messagingSenderId: '69529283541',
     projectId: 'emoti-fb-app',
@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyANH35wuuikscMQLvkzDokfQdHLqP4tlrM',
+    apiKey: '',
     appId: '1:69529283541:android:fc5384ba91d658d2856b5c',
     messagingSenderId: '69529283541',
     projectId: 'emoti-fb-app',
@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBpkMADz3nblfh3CAp7L9H9s90SjZygotA',
+    apiKey: '',
     appId: '1:69529283541:ios:4b0726c964880e0a856b5c',
     messagingSenderId: '69529283541',
     projectId: 'emoti-fb-app',
@@ -67,7 +67,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBpkMADz3nblfh3CAp7L9H9s90SjZygotA',
+    apiKey: '',
     appId: '1:69529283541:ios:4b0726c964880e0a856b5c',
     messagingSenderId: '69529283541',
     projectId: 'emoti-fb-app',
@@ -76,7 +76,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDC_KvoX8HqLpMusSoPE9yufQRUiKzoa3c',
+    apiKey: '',
     appId: '1:69529283541:web:eba1c75250a00e9d856b5c',
     messagingSenderId: '69529283541',
     projectId: 'emoti-fb-app',
