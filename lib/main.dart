@@ -28,6 +28,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.lightBlue, // Light blue theme
+        scaffoldBackgroundColor: Colors.lightBlue[50], // Light background
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.lightBlue,
+          foregroundColor: Colors.white, // White text/icons
+          elevation: 2, // Light shadow
+        ),
+        textTheme: TextTheme(
+          bodyLarge: TextStyle(color: Colors.black87), // Text color
+        ),
+      ),
       home: SplashScreen(),
     );
   }
